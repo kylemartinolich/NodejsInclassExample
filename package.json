@@ -4,18 +4,19 @@
   "description": "todo-app",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoseJCanedo/NodejsInclassExample.git"
+    "url": "git+https://github.com/kylemartinolich/NodejsInclassExample.git"
   },
   "author": "JoseCanedo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoseJCanedo/NodejsInclassExample/issues"
+    "url": "https://github.com/kylemartinolich/NodejsInclassExample/issues"
   },
-  "homepage": "https://github.com/JoseJCanedo/NodejsInclassExample#readme",
+  "homepage": "https://github.com/kylemartinolich/NodejsInclassExample#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
