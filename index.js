@@ -20,9 +20,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 //Connection Information for Mongo
 const Todo = require('./models/todo.model');
-const mongoDB = 'mongodb+srv://example_user:T9I7SERp3l6O0A9u@cluster0.jnbwk.mongodb.net/todolist?retryWrites=true&w=majority'
+const mongoDB = 'mongodb+srv://kylem:bcakes1419@cluster0.dun4u.mongodb.net/test?retryWrites=true&w=majority'
 //const mongoDB =  'mongodb+srv://testConnection:b8RwqJYgo4hD1xhe@nodetodoexample-iqnde.mongodb.net/test?retryWrites=true&w=majority'
-mongoose.connect(mongoDB);
+mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.Promise = global.Promise;
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
