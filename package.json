@@ -17,6 +17,9 @@
     "url": "https://github.com/kylemartinolich/NodejsInclassExample/issues"
   },
   "homepage": "https://github.com/kylemartinolich/NodejsInclassExample#readme",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
